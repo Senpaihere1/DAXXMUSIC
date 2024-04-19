@@ -46,8 +46,7 @@ async def cute(_, message):
         chat_id=message.chat.id,
         document=CUTIE,
         caption=CUTE,
-        reply_markup=InlineKeyboardMarkup(BUTTON),
-        reply_to_message_id=message.reply_to_message.message_id if message.reply_to_message else None,
+      
     )
     
 help_text = """
